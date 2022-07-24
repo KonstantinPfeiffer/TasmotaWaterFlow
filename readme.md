@@ -5,7 +5,7 @@ Use https://benzino77-tasmocompiler-5dvopnzodev.ws-eu54.gitpod.io/
 
 to compile a Tasmota Version with "Script" instead of "Rules" for your Platform.
 
-Define the  declares from FlowMeter.txt
+Define the  declares from "FlowMeter.txt"
 
 You can also use the binaries of Tasmota 12.2 english Version from this repository. 
 
@@ -17,7 +17,7 @@ for ESP32 you can use your upload tool of your choice, or most easy way if you d
 
 Use https://tasmota.github.io/install/ to install the default ESP32 Tasmota image, then use the "Upgrade Firmware" function to upload the custom image.
 
-When you are connected, copy the follwing Script to the Script Console, don´t forget to activate. You also have to configure MQTT. The Values from Counter1 are taken, so you have to configure your Profile to "Generic" and define the Counter on the GPIO you connected the WaterFlow Meter.
+When you are connected, copy the Script from "FlowMeter_Final_script.txt" to the Script Console, don´t forget to activate. You also have to configure MQTT. The Values from Counter1 are taken, so you have to configure your Profile to "Generic" and define the Counter on the GPIO you connected the WaterFlow Meter.
 
 Save and activate the Content from FlowMeter_Final_script.txt in the Console-->Script (Not BERRY Script in ESP32!) 
 
