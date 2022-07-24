@@ -8,6 +8,7 @@ to compile a Tasmota Version with "Script" instead of "Rules" for your Platform.
 Define the follwing declares:
 
 ---------COPY EVERYTHING UNDER THIS LINE---------
+
 #define USE_SCRIPT_TIMER
 #define USE_SCRIPT_WEB_DISPLAY
 #define USE_SCRIPT_JSON_EXPORT
@@ -17,6 +18,7 @@ Define the follwing declares:
 #define USE_GOOGLE_CHARTS
 #define USE_SCRIPT
 #define USE_BUTTON_EVENT
+
 ---------COPY EVERYTHING ABOVE THIS LINE---------
 
 Flash the Binary to your ESP. 
