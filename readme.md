@@ -7,6 +7,7 @@ to compile a Tasmota Version with "Script" instead of "Rules" for your Platform.
 
 Define the  declares from FlowMeter.txt
 
+You can also use the binaries of Tasmota 12.2 english Version from this repository. 
 
 Flash the Binary to your ESP. 
 You can use: 
