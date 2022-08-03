@@ -89,12 +89,9 @@ liter=(liter+tmp)
 flow=tmp*60
 print total:%total% delta:%delta% liter:%liter% flowrate:%flow%
 svars
-ts1(1000)
-if lastval<>total
-then
+
 =>publish stat/%topic%/Flow {"FlowRate":%flow%,"PulseRate":%delta%,"WaterFlow":"%cflow%","Total":%liter%,"Counter":%total%}
-lastval=total
-endif
+
 
 >W
 
